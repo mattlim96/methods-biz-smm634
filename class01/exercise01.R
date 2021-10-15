@@ -26,6 +26,8 @@ prediction.y
 # (f) I don't think it will be the same because our model was trained with a small sample size of 10,
 #     the behavior of employees who live much further away would differ from the employees in our sample
 
+#     Cannot extrapolate because predictions of Y has to be within the range of X from sample.
+
 # (g) approx normal and variance seems constant
 par(mfrow = c(2, 2))
 plot(lm)
